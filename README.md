@@ -18,3 +18,5 @@ end：结束外部迭代。
 def print_pixel(red, green, blue)：定义一个名为print_pixel的方法，接受红、绿、蓝通道的值作为参数。
 pixel = "\e[48;2;#{red};#{green};#{blue}m \e[0m"：构建一个控制台上带有指定RGB颜色的像素字符。
 print pixel：打印像素字符。
+gem install chunky_png
+安装chunky_png库来处理PNG图像
